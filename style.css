@@ -9,6 +9,7 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
 }
 
 .container {
@@ -16,21 +17,22 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 44px;
-    
-}
+ }
 
 .user-avatar {
-    width: auto;
+    max-width: 317px;
     border-radius: 10px 10px 0px 0px;
     background-color: #23252C;
 }
 
 .user-name {
+    text-align: center;
     font-weight: bold;
     font-size: 25px;
 }
 
 .card {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +40,7 @@ body {
     background-color: #1A1B21;
     width: auto;
     border-radius: 0px 0px 10px 10px;
+    margin-bottom: 24px;
 }
 
 .card h1 {
@@ -83,8 +86,6 @@ body {
 }
 
 .about, .interests {
-    margin-right: auto;
-    margin-left: 36px;
     max-width: 247px;
 }
 
@@ -112,6 +113,7 @@ body {
     gap: 24px;
     width: 100%;
     margin-top: 24px;
+    
     border-radius: 0px 0px 10px 10px;
 }
 

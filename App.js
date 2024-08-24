@@ -15,8 +15,9 @@ export default function App(){
                 <EmailBtn />
                 <About />
                 <Interests />
-            </div>
                 <CardFooter />
+            </div>
+                
         </div>
         
     )

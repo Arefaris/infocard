@@ -436,9 +436,9 @@ function App() {
             _react2.default.createElement(_userNameProfession2.default, null),
             _react2.default.createElement(_emailBtn2.default, null),
             _react2.default.createElement(_about2.default, null),
-            _react2.default.createElement(_interests2.default, null)
-        ),
-        _react2.default.createElement(_cardFooter2.default, null)
+            _react2.default.createElement(_interests2.default, null),
+            _react2.default.createElement(_cardFooter2.default, null)
+        )
     );
 }
 
